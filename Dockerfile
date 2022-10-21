@@ -31,7 +31,8 @@ libluajit-5.1-dev \
 libunwind-dev \
 git \
 net-tools \
-wget
+wget \
+iputils-ping
 
 
 RUN cd /tmp && git clone https://github.com/snort3/libdaq.git && \
