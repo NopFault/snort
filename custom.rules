@@ -1,0 +1,2 @@
+#testing Ping detection
+alert icmp any any -> any any (msg:"ICMP Detected";  classtype:misc-activity; sid:1; rev:7;)

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t snort3 . && \
+docker run -it snort3
